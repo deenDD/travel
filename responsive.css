@@ -1,0 +1,154 @@
+
+.display-4{
+  font-size: 150%;
+  font-weight: lighter;
+  font-family: Circular, -apple-system, system-ui, Roboto, "Helvetica Neue", sans-serif;
+  color: #666;
+}
+
+.widthsize-30{
+  padding: 0 ;
+
+}
+
+.order-3{
+  order: unset;
+
+}
+.card-title{
+  font-size: 140%;
+}
+.card-text{
+  font-size: 100%;
+}
+.texts-b{
+  background-color: #006C70;
+  border-bottom: 1px solid #eee;
+  width: 20rem; margin:0 auto;
+}
+footer a{
+  color: #666;
+}
+
+.card-img{
+  max-width: 90%;
+  height: 35rem;
+object-fit: cover;
+margin: 0 auto;
+
+}
+.card-img-col{
+  width: 100%;
+  height: 25rem;
+object-fit: cover;
+}
+.card-img-overlay {
+  position: absolute;
+  top: 12%;
+  left: 25%;
+  width: 65%;
+  height: 100%;
+ 
+}
+.display-4-op{
+  font-size: 280%;
+  font-weight: bolder;
+  color: white;
+  font-family: Circular, -apple-system, system-ui, Roboto, "Helvetica Neue", sans-serif;
+}
+.t-msg{
+
+  position: absolute;
+  top: 3%;
+  z-index: 100;
+}
+
+
+@media screen and (max-width: 620px) {
+  .f-top{
+    float: none; 
+  }	
+  .dnone{
+    display: none;
+  }
+  .t-show{
+    display: block;
+  }
+  .t-img-tittle{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+  .display-4-top{
+    font-size: 180%;
+    font-weight: bolder;
+    color: white;
+    font-family: Circular, -apple-system, system-ui, Roboto, "Helvetica Neue", sans-serif;
+  }
+  .t-img-tittle a{
+    color: white;
+  }
+  /* nav{
+    display: none;
+  } */
+  .hide-nave{
+    display: none;
+    
+  }
+  .fa-podcast{
+    font-size: 3rem;
+  
+  }
+
+  nav{
+    position: absolute;
+    
+    right: 80%;
+  }
+  .card-img{
+    max-width: 90%;
+    height: 25rem;
+  object-fit: cover;
+  margin: 0 auto;
+  
+  }
+
+  .card-img-overlay {
+    position: static;
+    background-color: white ;
+    color: #666;
+    width: 100%;
+  }
+  .card-top{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    width: 80%;
+  }
+  /* .show-hr{
+   
+    display: block;
+    width: 80%;
+    
+  } */
+  video {
+    width: 100%;
+    height: 35rem;
+  object-fit: cover;
+  }
+ 
+}
+
+
+
+@media screen and (max-width: 500px) {
+	.display-4{
+    font-size: 130%;
+    
+  }
+  .texts-b{
+   
+    width: 15rem; margin:0 auto;
+  }
+
+}

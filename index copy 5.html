@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+ <!-- 旧Verを利用する場合 -->
+
+  <title>Lesson5_2</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css" media="screen and (max-width: 970px)">
+  <title>Document</title>
+</head>
+<body>
+  <!-- 画像の上に載せるBG無地 -->
+
+ <nav class="t-navbar" style="text-align: right;">
+  <i class="fa fa-podcast d-inline" aria-hidden="true"></i>
+  <button type="button" class="btn text-white" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">	(JP)</button>
+  <button type="button" class="btn text-white" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">JPY</button>
+  <button type="button" class="btn text-white" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">ホストをはじめる</button>
+  
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Recipient:</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="col-form-label">Message:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Send message</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button type="button" class="btn text-white" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">	ヘルプ</button>
+  <button type="button" class="btn text-white" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">登録</button>
+  <button type="button" class="btn text-white" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">ログインする</button>
+  
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Recipient:</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="col-form-label">Message:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Send message</button>
+        </div>
+      </div>
+    </div>
+  </div>
+ </nav>
+  <!-- 画像の上に載せるBG無地 終わり-->
+
+  <!-- バックグランドが動画 -->
+ <header>
+  <!-- <p>Brilliant Blue</p>
+  <div class="video-container">
+    <video src="
+    ateki.mp4" autoplay playsinline muted loop></video>
+    <div class="video-sidebar">
+      <h1>Title</h1>
+      <p>This video is sample.</p>
+    </div>
+  </div> -->
+  <div class="card bg-dark text-white video-container">
+  
+
+    <video src="morujibu.mp4" autoplay playsinline muted loop></video>
+
+    
+    <div class="card-img-overlay dnone " >
+ 
+      <h5 class="card-title display-4-top ">世界の果てまで、アットホーム</h5>
+      <p class="card-text"><a class="a-color-w text-white" href="">Airbnbビジネスプログラムの動画を見る　▶︎</a></p>
+      <p class="card-text">まずは仕事用メールアドレスの入力から</p>
+      <div  class="input-group  col-md-8 " >
+        <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <span class="input-group-text" id="basic-addon2">メールアドレスを追加</span>
+        </div>
+      </div>
+      <p class="card-text mt-2">出張管理をご担当ですか？<a class="a-color-w text-white" style="font-weight: bold;" href="">もっと詳しく
+        </a></p>
+    </div>
+  </div>
+ </header>
+  <!-- バックグランドが動画 終わり-->
+  <!-- 画面がmd（768）で動画の文字が消えたのをここに表示 -->
+
+  <!-- 画面がmd（768）で動画の文字が消えたのをここに表示　終わり -->
+
+  <!-- 紹介する3つのコンテンツ -->
+  <section class=" mt-5 " >
+    <h2 style="text-align: center;" class="display-4">最高の仕事に必要なものすべてを完備</h2>
+    <div class="row widthsize-30">
+        <div class="card  col-xl-4 ">
+          <img class="card-img" src="airbnb3.jpg" class="card-img-top" alt="...">
+          <div class="card-body " >
+            <p class="card-text">高評価の宿泊先＆デザイナーズホテル</p>
+          </div>
+        </div>  
+        <div class="card  col-xl-4 ">
+          <img class="card-img" src="airbnb2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">高評価の宿泊先＆デザイナーズホテル</p>
+          </div>
+        </div>  
+        <div class="card  col-xl-4 ">
+          <img class="card-img" src="airbnb1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">高評価の宿泊先＆デザイナーズホテル</p>
+          </div>
+        </div>  
+    </div>
+  </div>
+   
+
+  </section>
+  <!-- 紹介する3つのコンテンツ 終わり-->
+ 
+  <!-- 画像とテキスト　３枚 -->
+  <section class="cards mt-5 p-3">
+    <div class="card mb-3 " style="max-width: 100%;">
+      <div class="row no-gutters ">
+        <div class="col-md-5">
+          <img src="airbnb7.jpg" class="card-img-col" alt="...">
+        </div>
+        <div class=" col-md-7 inp-text" style="text-align: center; background-color: #eee;">
+          <div class="card-body  " style=" width: 20rem; margin:0 auto;">
+            <h2 class="card-title display-4">出張先でも、アットホーム</h2>
+            <p class="card-text">出張のときも、新天地に異動のときも安心。他の出張者が5つ星評価をつけたお部屋やデザイナーズホテルを探しましょう。</p>
+            <p class="card-text "><a href="">仕事用スペースを完備した宿泊先を検索 ></a> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 100%;">
+      <div class="row no-gutters">
+        <div class="col-md-5 order-3">
+          <img src="airbnb6.jpg" class="card-img-col" alt="...">
+        </div>
+        <div class="col-md-7 " style="text-align: center; background-color: #006C70; color: #fff;">
+          <div class="card-body  " style="color: #fff; width: 20rem; margin:0 auto;">
+            <h2 class="card-title display-4 text-white">チームの心をひとつに</h2>
+            <p class="card-text">ラーメン作り教室やカヌーレッスンに参加。普段オフィスでは目にできない同僚たちの意外な面に触れ、深いレベルでつながれます。</p>
+            <p class="card-text "><a class="text-white " href="">Airbnbの「体験」を検索 </a> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 100%;">
+      <div class="row no-gutters">
+        <div class="col-md-5">
+          <img src="airbnb4.jpg" class="card-img-col" alt="...">
+        </div>
+        <div class="col-md-7" style="text-align: center; background-color: #eee;">
+          <div class="card-body  " style=" width: 20rem; margin:0 auto;">
+            <h2 class="card-title display-4">出張先でも、アットホーム</h2>
+            <p class="card-text">出張のときも、新天地に異動のときも安心。他の出張者が5つ星評価をつけたお部屋やデザイナーズホテルを探しましょう。</p>
+            <p class="card-text "><a href="">仕事用スペースを完備した宿泊先を検索</a> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 画像とテキスト　３枚 終わり-->
+  <!-- テキスト　2枚 -->
+  <section class="texts row bg-6b07 p-5 font-smol"  style="color:#fff">
+    <div class="card col-md-6 bg-6b07 ">
+      <div class="card-body  bg-6b07 texts-b" style="width: 25rem; margin:0 auto;" >
+        <h2 class="card-title text-white">安全第一のシステム</h2>
+        <p class="card-text text-white">セキュアな支払いシステムから経験者のレビューまで、Airbnbは安全中心のシステムです。</p>
+        <a href="#" class="card-link">もっと詳しく ></a>
+      </div>
+    </div>
+    <div class="card col-md-6 bg-6b07 ">
+      <div class="card-body  bg-6b07 texts-b" style="width: 25rem; margin:0 auto;" >
+        <h2 class="card-title text-white">グローバルカスタマーサポート</h2>
+        <p class="card-text text-white">専門スタッフが、年中無休で営業時間内に11言語でサポートいたします。</p>
+        <a href="#" class="card-link">もっと詳しく ></a>
+      </div>
+    </div>
+
+  </section>
+  <!-- テキスト　2枚 終わり-->
+  <!-- 画像とテキスト　1枚 -->
+   <section class="cards container">
+   
+    <div class="card mb-3 mt-6  " style="max-width: 100%;">
+      <div class="row no-gutters ">
+        <div class="col-md-5">
+          <img src="airbnb5.jpg" class="card-img-col" alt="...">
+        </div>
+        <div class="col-md-7 inp-text" style="text-align: center; background-color: #eee;">
+          <div class="card-body  " style=" width: 22rem; margin:0 auto;">
+            <h2 class="card-title display-4"></h2>
+            <p class="card-text font-l">「Airbnbは自活できるのがいいですね。毎晩外食しなくても、みんなで好きなものを料理できるし、とても出張とは思えないほど現地に根を下ろせます」</p>
+            <h6 class="card-text">MARTA KUTT様</h6>
+            <p class="card-text "><a href="">仕事用スペースを完備した宿泊先を検索 ></a> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 画像とテキスト　1枚 終わり-->
+  <!-- コンタクトを取る -->
+  <div class="contact mt-6">
+    <div class="jumbotron " style="text-align: center; ">
+      <h1 class="display-4">働き方を変えたいなら、Airbnbです</h1>
+      <p class=""><a style="color: #666;" href="">まずは仕事用メールアドレスの入力から</a></p>
+      <div class="input-group  mb-3 col-md-4 " >
+        <input type="text " class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <div class="input-group-append ">
+          <span class="input-group-text" id="basic-addon2">@example.com</span>
+        </div>
+      </div>
+      <hr class="my-4">
+      <h5>出張管理をご担当ですか？</h5>
+      <p>こんなにある、Airbnbビジネスプログラム法人企業様のメリット。</p>
+      <p class="card-text "><a href="">もっと詳しく</a> </p>
+    </div>
+  </div>
+  <!-- コンタクトを取る -->
+<footer class=" " style="background-color: #eee; ">
+  <div class="wightsize " >
+    <div class="row d-flex justify-content-around pt-5" >
+  
+      <ul class="col-10 col-md-3 bor-b " style=" font-size: small; list-style: none;">
+        <a style="font-weight: bold;" href=""><li>企業情報</li></a>
+        <a href=""><li class="my-3">Airbnbのご利用方法</li></a>
+        <a href=""><li class="my-3" >ダイバーシティ＆ビロンギング</li></a>
+        <a href=""><li class="my-3">アクセシビリティ対応</li></a>
+        <a href=""><li class="my-3">信頼＆安全</li></a>
+        <a href=""><l class="my-3"i>Airbnb Citizen</li></a>
+        <a href=""><li class="my-3">オリンピック</li></a>
+        <a href=""><li class="my-3">ニュースルーム</li></a>
+        <a href=""><li class="my-3"></li></a> 
+      </ul>
+      <ul class="col-10 col-md-3 bor-b" style=" font-size: small; list-style: none;">
+        <a style="font-weight: bold;" href=""><li>企業情報</li></a>
+        <a href=""><li class="my-3">Airbnbのご利用方法</li></a>
+        <a href=""><li class="my-3" >ダイバーシティ＆ビロンギング</li></a>
+        <a href=""><li class="my-3">アクセシビリティ対応</li></a>
+        <a href=""><li class="my-3">信頼＆安全</li></a>
+        <a href=""><l class="my-3"i>Airbnb Citizen</li></a>
+        <a href=""><li class="my-3">オリンピック</li></a>
+        <a href=""><li class="my-3">ニュースルーム</li></a>
+        <a href=""><li class="my-3"></li></a>
+      </ul>
+      <ul class="col-10 col-md-3 bor-b" style=" font-size: small; list-style: none;">
+        <a style="font-weight: bold;" href=""><li>企業情報</li></a>
+        <a href=""><li class="my-3">Airbnbのご利用方法</li></a>
+        <a href=""><li class="my-3" >ダイバーシティ＆ビロンギング</li></a>
+        <a href=""><li class="my-3">アクセシビリティ対応</li></a>
+        <a href=""><li class="my-3">信頼＆安全</li></a>
+        <a href=""><l class="my-3"i>Airbnb Citizen</li></a>
+        <a href=""><li class="my-3">オリンピック</li></a>
+        <a href=""><li class="my-3">ニュースルーム</li></a>
+        <a href=""><li class="my-3"></li></a>  
+      </ul>
+      <ul class="col-10 col-md-3 "  style="font-size: small; list-style: none;">
+        <a style="font-weight: bold;" href=""><li>企業情報</li></a>
+        <a href=""><li class="my-3">Airbnbのご利用方法</li></a>
+        <a href=""><li class="my-3" >ダイバーシティ＆ビロンギング</li></a>
+        <a href=""><li class="my-3">アクセシビリティ対応</li></a>
+        <a href=""><li class="my-3">信頼＆安全</li></a>
+        <a href=""><l class="my-3"i>Airbnb Citizen</li></a>
+        <a href=""><li class="my-3">オリンピック</li></a>
+        <a href=""><li class="my-3">ニュースルーム</li></a>
+        <a href=""><li class="my-3"></li></a>
+      </ul>
+  </div>
+  <hr>
+  <!-- <div class="card"> -->
+    <div  style="font-size: small;">
+      <div style="text-align: left;"> 
+        <div class="f-top "><span class="d-inline"><i class="fas  fa-globe 
+            inlineblock d-inline"></i></span><a  href="">日本語 (JP)</a><span class="inlineblock d-inline"><i class="fas fa-yen-sign "></i><a href="">JPY</a></span>
+            <span><i class="fab fa-facebook-square inlineblock"></i> <i class="fab fa-twitter inlineblock"></i><i class="fab fa-instagram inlineblock"></i></span>
+        </div>
+        
+            <div class="col-12"><a href=""><span >
+          Airbnb Global Services Limited</span>
+          </a></div>
+        </div>   
+          
+          
+      <div>
+        <a href=""><span class="d-block">観光庁長官(01)第S0001号(2018年6月15日-2023年6月14日)</span>
+          </a>
+      </div>
+      <div class="row">
+        <a href=""><p>© 2020 Airbnb, Inc. All rights reserved</p>
+          </a>
+        <ul class="row " >
+          <li><a href="">·プライバシー</a></li>
+          <li><a href="">·利用規約</a></li>
+          <li><a href="">·サイトマップ</a></li>
+          <li><a href="">·企業情報</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+</footer>
+
+  
+  
+  
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script>$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})</script>
+</body>
+</body>
+</html>
